@@ -1,0 +1,47 @@
+This is a simple web application that allows users to upload images and analyze them using the Google Cloud Vision API. The application displays a list of products based on the tags detected in the uploaded image.
+
+## Setup
+
+### Prerequisites
+
+Before running the application, you need to have the following installed:
+
+- Node.js
+- npm (Node Package Manager)
+
+### Installation
+
+1. Clone the repository to your local machine:
+
+git clone https://github.com/your-username/image-upload-app.git
+Navigate to the project directory:
+cd image-upload-app
+Install dependencies:
+npm install
+Setting Up the Vision API Key
+To use the Vision API for image analysis, you need to obtain an API key from the Google Cloud Console:
+
+Go to the Google Cloud Console.
+Create a new project or select an existing one.
+Enable the Vision API for your project.
+Create an API key in the Credentials section of your project.
+Copy the API key and replace 'YOUR_API_KEY' in the ImageUpload.js file with your actual API key.
+Running the Application
+After installing dependencies and setting up the API key, you can run the application:
+
+npm start
+The application should now be running on http://localhost:3000. You can access it in your web browser.
+
+Usage
+Upload an image using the "Upload your image" button.
+The application will analyze the image using the Google Cloud Vision API.
+Matching products based on the detected tags will be displayed on the screen.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+Feel free to customize this README file according to your specific project requirements and structure. Make sure to provide clear instructions for setting up and running the application, including any necessary configurations or dependencies.
+
+
+
+

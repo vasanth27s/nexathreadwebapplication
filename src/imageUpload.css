@@ -1,0 +1,47 @@
+
+.image-upload-container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 80%; 
+}
+
+.image-upload-container h2 {
+    margin-bottom: 20px;
+}
+
+.image-upload-container input[type="file"] {
+    display: none; 
+}
+
+.custom-file-input {
+    display: inline-block;
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-file-input::before {
+    content: 'Choose File';
+}
+
+.custom-file-input:hover {
+    background-color: #45a049; }
+
+.custom-file-input:active {
+    background-color: #3e8e41; 
+}
+
+.custom-file-input::after {
+    content: '\2715'; 
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.image-preview {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    max-height: 300px; }
